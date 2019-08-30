@@ -8,3 +8,10 @@ html{font-family:"Open Sans",sans-serif;font-family:Roboto,sans-serif}
 .menu_link{color:#091606;font-family:"Open Sans";font-size:16px;font-weight:400;text-decoration:none;padding-left:70px}
 ul{display:-webkit-box;display:-ms-flexbox;display:flex;margin-top:30px;list-style-type:none}
 .street{display:block;margin-top:30px;color:#000;font-family:"Open Sans";font-size:16px;font-weight:400}
+html{font-family:"Open Sans",sans-serif;font-family:Roboto,sans-serif}
+.container{position:relative;width:1844px;margin:0 auto}
+.promo{height:941px;background:url(../img/fonimg.png) center center/cover no-repeat;padding:226px 0 399px 0}
+.promo-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.promo_btn{display:block;position:absolute;margin-top:210px;right:52%;color:#fff;font-size:26px;font-weight:400;width:278px;height:50px;border-radius:5px;background-image:-webkit-gradient(linear,left bottom,left top,from(#0839d9),to(#002396));background-image:linear-gradient(to top,#0839d9 0,#002396 100%);opacity:.7}
+.title{position:relative;display:block;padding-left:20px;color:#1d1d1d;font-family:Roboto;font-size:68px;font-weight:700;text-align:center;margin-right:330px}
+.label{display:block;margin-top:39px;color:#212020;font-family:"Open Sans";font-size:42px;font-weight:700;text-align:center;margin-right:330px}
