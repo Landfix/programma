@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap')
+
+*
+	box-sizing: border-box
+	user-select: none
+
+body
+	margin: 0
+	padding: 0
+
+.advantages-block
+	width: 100%
+	height: 100vh
+	background: url('../img/fonbg.png') center (center / cover) no-repeat
+
+.advantages-block-title
+	width: 100%
+	height: 15vh
+	display: flex
+	justify-content: center
+	align-items: center
+	color: #091606
+	font-family: Roboto
+	font-size: 32px
+	font-weight: 700
+	padding-top: 100px
+span
+	color: #091606
+	font-family: "Open Sans"
+	font-size: 26px
+	font-weight: 700
+
+.advantages-block-content
+	width: 100%
+	height: 85vh
+	display: flex
+	flex-wrap: wrap
+
+.advantage
+	width: calc(100% / 3)
+	height: 50%
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+// span
+// 	font-family: 'Montserrat', sans-serif
+.icon
+	width: 120px
+	height: 110px
+	display: flex
+	justify-content: center
+	align-items: center
+	border-radius: 25%
+	margin-bottom: 50px
+	transition: 0.3s transform ease
+	cursor: pointer
+	&:hover
+		transform: scale(1.2) translateY(-10px)
+	// i
+	//   display: block
+	//   font-size: 40px
+	//   color: rgba(0, 0, 0, 0.65)
